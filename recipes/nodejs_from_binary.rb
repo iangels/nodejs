@@ -56,4 +56,5 @@ ark archive_name do
   checksum checksum
   has_binaries binaries
   action :install
+  owner 'ubuntu'
 end
